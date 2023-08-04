@@ -22,6 +22,7 @@ li {
   --common_color: #474747;
   --mardy_color: #181818;
   --white_color: #ffffff;
+  --item_sahdow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .para {
   color: var(--para_color);
@@ -152,6 +153,7 @@ li {
 .main_area {
   padding: 130px 0;
 }
+/* start about_area css */
 .about_section {
   width: 1140px;
   margin: 0 auto;
@@ -176,4 +178,40 @@ li {
 .person_info h4 {
   color: var(--common_color);
 }
+/* end about_area css */
+/* start portfolio_section css */
+.portfolio_section {
+  margin: 130px 0;
+}
+.headline p {
+  width: 909px;
+  margin: 0 auto;
+}
+.item {
+  width: 267px;
+  padding: 30px;
+  background: var(--white_color);
+  border-radius: 5px;
+  box-shadow: var(--item_sahdow);
+  margin-right: 24px;
+}
+.mongodb {
+  margin-right: 0px;
+}
+.img {
+  margin-bottom: 30px;
+}
+.item h4 {
+  margin-bottom: 20px;
+}
+.item p {
+  width: 201px;
+}
+.portfolio_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+/* end portfolio_section css */
 /* end main_area css */
