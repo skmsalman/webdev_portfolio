@@ -140,7 +140,7 @@ body {
 .banner_left .para {
   width: 585px;
   margin-bottom: 30px;
-  text-align: left;
+  text-align: left !important;
 }
 .banner_left .download_contact a {
   margin-right: 30px;
@@ -322,6 +322,7 @@ a i {
   height: 180px;
   border: none;
   border-radius: 5px;
+  margin-bottom: 24px;
 }
 .form form textarea:focus {
   outline: none;
