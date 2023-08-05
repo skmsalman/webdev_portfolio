@@ -23,6 +23,7 @@ li {
   --mardy_color: #181818;
   --white_color: #ffffff;
   --item_sahdow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  --bottom_border_color: #d1d1d1;
 }
 .para {
   color: var(--para_color);
@@ -56,16 +57,27 @@ li {
   color: var(--common_color);
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 10px;
+}
+.content_heading_title {
+  color: var(--para_color);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 .sub_heading {
   color: var(--common_color);
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 .icon_title {
   color: var(--mardy_color);
   font-size: 20px;
   font-weight: 700;
+}
+body {
+  background: var(--white_color);
 }
 /*end common shared style */
 /* start header_area css */
@@ -214,4 +226,37 @@ li {
   margin-top: 50px;
 }
 /* end portfolio_section css */
+/* start resume_section css */
+.resume_section {
+}
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume_left,
+.resume_right {
+  width: 511px;
+}
+.resume_left {
+  margin-right: 24px;
+}
+.resume_left_item,
+.resume_right_item {
+  position: relative;
+  padding: 0 0 30px;
+  margin-bottom: 30px;
+}
+.resume_left_item::after,
+.resume_right_item::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: var(--bottom_border_color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* end resume_section css */
 /* end main_area css */
