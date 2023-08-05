@@ -140,6 +140,7 @@ body {
 .banner_left .para {
   width: 585px;
   margin-bottom: 30px;
+  text-align: left;
 }
 .banner_left .download_contact a {
   margin-right: 30px;
