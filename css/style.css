@@ -163,7 +163,7 @@ a i {
 /* end header_area css */
 /* start main_area css */
 .main_area {
-  padding: 130px 0;
+  padding: 130px 0 0;
 }
 /* start about_area css */
 .about_section {
@@ -228,7 +228,7 @@ a i {
 /* end portfolio_section css */
 /* start resume_section css */
 .resume_section {
-  margin-bottom: 113px;
+  margin-bottom: 90px;
 }
 .resume_section .button {
   display: flex;
@@ -265,3 +265,64 @@ a i {
 }
 /* end resume_section css */
 /* end main_area css */
+/* start footer_area css */
+.footer_area {
+  padding: 130px 230px;
+  background: var(--header_bg);
+}
+.footer_section {
+  display: flex;
+  justify-content: center;
+}
+.footer_left_heading h4,
+.footer_right_heading h4 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.footer_left {
+  width: 562px;
+  margin-right: 117px;
+}
+.footer_right {
+  width: 461px;
+}
+.footer_left p {
+  width: 562px;
+  margin-bottom: 30px;
+}
+.knk_social_icon a {
+  margin-right: 24px;
+}
+.form form input {
+  display: block;
+  padding: 18px 30px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background: var(--white_color);
+  margin-bottom: 24px;
+  color: var(--para_color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.form form input:focus {
+  border: none;
+  outline: none;
+}
+.form form textarea {
+  resize: none;
+  width: 100%;
+  padding: 18px 30px;
+  color: var(--para_color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  height: 180px;
+  border: none;
+  border-radius: 5px;
+}
+.form form textarea:focus {
+  outline: none;
+}
+/* end footer_area css */
